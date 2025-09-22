@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(222, 221, 221, 0.39);
+}
+/* head */
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    padding-top: 30px;
+    width: 100%;
+
+}
+header{
+    margin-bottom: 30px;
+}
+.search{
+    background-image: url(images/search_btn.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 10px;
+}
+header p{
+    padding-left: 170px;
+    
+}
+/* secondHeader */
+.secondHead{
+    width: 100%;
+    display: flex;
+    justify-content:space-between ;
+    padding:0 40px ;
+    margin: 20px 0;
+    align-items: center;
+
+    
+}
+.span1{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: #007cc0;
+    width:100%
+}
+.secondHead .span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: rgb(79, 78, 78);
+    background-color:rgb(221, 215, 215);
+    width:60%;
+    
+}
+.thirdHeader{
+    width: 100%;
+    display: flex;
+    padding:0 40px ;
+    margin-top: 0px;
+    align-items: center;
+    
+}
+.firstStep{
+    height: 30px;
+    display: flex;
+    padding-left: 20px;
+    background-color:#c9e8f8;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/resStepDividerPrevious.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: rgb(106, 106, 232);
+
+}
+.secondStep{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007cc0;
+    background-image: url(images/resStepDividerActive.gif);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+
+    
+}
+.thirdHeader .span{
+    width: 70%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    width: 100%;
+    height: 110vh;
+    padding: 0 40px;
+
+}
+.content1{
+    width: 70%;
+    height: 100vh;
+}
+
+.model1{
+    display: flex;
+    background-color: white;
+}
+.model1 .car1box1, .car1box2,.car1box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.car1box4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.content,.but{
+    background-color:#007cc0;
+    width:80px;
+    border: 0px;
+    color: white;
+}
+#color{
+    background-color: rgb(230, 236, 236);
+}
+.content2{
+    width: 30%;
+    height: 80vh;
+    background-color:rgb(212, 237, 244);
+   
+}
+.SubContent2{
+    padding: 20px;
+}
+.content2 .b1{
+     display: flex;
+     justify-content: space-between;
+     
+}
+.content2 .b2,.b3,.b4,.b5{
+    padding-top: 20px;
+}
+.offer img{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+}
+.offer span  h2{
+    position: absolute ;
+    font-size: 150px;
+    top: 83%;
+    padding-left:100px;
+    color: #ffffffc8;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:40px;
+
+   
+}
+.footer1{ display: flex;
+    width: 100%;
+    }
+.footer1 .foot1,.foot2,.foot3,.foot4{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 260px;
+    padding-left: 60px;
+    background-color: #c9e8f8;
+   
+     
+}
+.footer1 .foot1,.foot2,.foot3,.foot4{
+    background-image: url(images/footer-divider-grad.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+.footer1 div{
+    padding-top: 10px;
+}
+footer .copy{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #c9e8f8;
+    padding-bottom: 15px;
+    border-bottom: 10px solid #007cc0;
+}
+    
+    
+
+
+     
+      
+
