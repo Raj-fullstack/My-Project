@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": "559c",
+      "author": "a",
+      "title": "a",
+      "body": "ga"
+    },
+    {
+      "id": "10f8",
+      "author": "b",
+      "title": "b",
+      "body": "b"
+    },
+    {
+      "id": "7739",
+      "author": "c",
+      "title": "c",
+      "body": "c"
+    },
+    {
+      "id": "92aa",
+      "author": "d",
+      "title": "d",
+      "body": "d"
+    },
+    {
+      "id": "f830",
+      "author": "e",
+      "title": "e",
+      "body": "e"
+    },
+    {
+      "id": "f58f",
+      "author": "f",
+      "title": "f",
+      "body": "f"
+    }
+  ]
+}
