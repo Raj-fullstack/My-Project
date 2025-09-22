@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="wrapper"><h1>Personal Details</h1><p id="error-message" style="color: red;text-align: center; display: none;">input data is required.</p>
+        <div class="container">  
+              <div class="slide1">
+                
+
+                   
+                          <div>
+                             <label>Name</label>
+                              <input id="Name" type="text" placeholder="Enter your Name" > 
+                          </div>
+                          <div>
+                              <label>Birth Date</label>
+                              <input id="DOB" type="date" placeholder="Enter your E-Mail">
+                          </div>
+                          <div>
+                              <label> Address </label>
+                              <input id="Address" type="text" placeholder="Enter your Address">
+                          </div>
+                          <div>
+                              <label>country </label>
+                                  <select id="Country" onchange="CountryChange()">
+                                       <option  selected>Please Select your Country</option>
+                                       <option>Canada</option>
+                                       <option>USA</option>
+                                       <option >India</option>
+                                      
+                                    </select>
+        
+                            </div>   
+                    
+              </div> 
+
+             <div class="slide2">
+                
+                     <div>
+                          <label>E-Mail</label>
+                          <input id="Email" type="email" placeholder="Enter your E-Mail">
+                     </div>
+                     <div>
+                          <label>Phone</label>
+                          <input id="Phone" type="number" placeholder="Enter your Number">
+                     </div>
+                     <div>
+                          <label> Mobile</label>
+                          <input id="Mobile" type="number" placeholder="Enter your Number">
+                     </div>
+                     <div>
+                            <label>State</label>
+                               <select id="State"> 
+                               
+                               <option selected> select your State</option>
+                             
+                               </select>
+                          
+                        </div>
+                  
+               
+             </div>  
+             
+        </div>
+    <div class="buttonctr">
+            <button class="sub-button" onclick="OnSubmit()">Submit</button>
+         </div>
+      
+  
+     </div>  
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
